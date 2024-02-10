@@ -1,0 +1,21 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Book Antiqua", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 5;
+  padding: 0;
+  color: #333;
+}
+
+h1 {
+  color: green;
+}
+
+.t1 {
+  color: red;
+}
+
+#t5 {
+  color: blue;
+}
