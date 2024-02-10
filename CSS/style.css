@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #f0f0f0;
   font-family: "Book Antiqua", sans-serif;
   font-size: 16px;
@@ -8,14 +8,60 @@ body {
   color: #333;
 }
 
-h1 {
-  color: green;
+/*
+  R G B  - base colors (red, green, blue)
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+*/
+
+/* h1 {
+  color: rgb(0, 0, 0);
 }
 
 .t1 {
   color: red;
 }
 
-#t5 {
-  color: blue;
+#t2 {
+  color: #00ff00;
 }
+
+#t4 {
+  color: blue;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* up, right, bottom, left */
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  padding: 20px;
+  margin: 20px;
+  font-size: 0.5em;
+}
+
+.contained {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+}
+
+.T {
+font-size: 1em;
+}
+
+.t {
+  font-size: 1em;
+}
+
+/*
+Absolute & relative
+px, em, rem, %
+1rem = 16px
+*/
