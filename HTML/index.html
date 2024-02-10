@@ -2,10 +2,35 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is a simple HTML page for beginners"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Max Mustermann" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ol>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+        </ol>
+      </nav>
+    </header>
+
     <!-- Heading -->
     <h1>Hallo Welt</h1>
     <h2>Hallo Welt</h2>
@@ -25,6 +50,12 @@
       esse consequuntur aliquam, reiciendis fugiat quidem atque, distinctio
       facere?
     </p>
+
+    <textarea name="" id="text" cols="100" rows="10">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis sunt repellendus ipsum sint consectetur nulla, consequuntur officia distinctio eaque odit itaque, cupiditate nihil dolorem inventore, unde tempora nobis libero eveniet.</textarea
+    >
+    <br />
+    <button>Submit</button>
 
     <!-- Line Break -->
     <hr />
@@ -55,9 +86,52 @@
 
     <!-- Image -->
     <img src="" alt="" />
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/150px-Circle_-_black_simple.svg.png"
-      alt="Image not found"
-    />
+    <img src="/img1.jpg" alt="Image not found" width="200" height="200" />
+
+    <hr />
+
+    <div class="container">
+      <h2>Inputs</h2>
+
+      <!-- Input -->
+      <label>Username</label> <br />
+      <input id="username" placeholder="username" /> <br />
+      <label>Password</label> <br />
+      <input id="password" type="password" placeholder="password" /> <br />
+      <button>Log in</button>
+    </div>
+
+    <hr />
+
+    <h2>Tables</h2>
+
+    <!-- Table -->
+    <table>
+      <tr style="font-weight: bolder">
+        <td>ID</td>
+        <td>Name</td>
+        <td>Email</td>
+        <td>Adress</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Max Mustermann</td>
+        <td>max.mu@email.com</td>
+        <td>Muster Straße 6</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <embed src="https://www.youtube.com/embed/dtp6b76pMak" />
+
+    <br />
+
+    <iframe
+      src="https://www.youtube.com/embed/dtp6b76pMak"
+      frameborder="0"
+    ></iframe>
+
+    <footer>All rights reserved &copy; 2024</footer>
   </body>
 </html>
