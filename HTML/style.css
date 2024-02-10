@@ -1,11 +1,28 @@
-.body {
+body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #666;
+  color: #333;
   background: #f4f4f4;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+/* For a class - class */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #a4f4;
+}
+
+/* For a single row - span */
+#inputsTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f66;
 }
